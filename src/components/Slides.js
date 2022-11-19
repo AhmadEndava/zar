@@ -10,6 +10,7 @@ import Filter from "./Filter";
 import FlightCards from "./FlightCards";
 import Contacts from "./Contacts";
 import logo from "../assets/images/logo.png";
+import "../assets/css/sliderCss.css";
 
 const useStyles = makeStyles({
   mainDiv: {
@@ -82,7 +83,7 @@ function Slides({ slides }) {
   }
   return (
     <div className={classes.mainDiv}>
-      <Paper elevation={3} className={classes.card}>
+      <Paper id="sliderCard"  elevation={3} className={classes.card}>
         {slides &&
           slides.map(
             (item, index) =>

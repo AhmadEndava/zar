@@ -1,0 +1,27 @@
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    #sliderCard {
+        margin-top: 20;
+        align-self: center;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+  }}
+  
+  /* For Tablets */
+  @media screen and (min-width: 540px) and (max-width: 780px) {
+    #sliderCard {
+        margin-top: 20;
+        align-self: center;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+    }
+  }
+  
+  /* For computer */
+  @media screen and (min-width: 780px)  {
+    
+  }
